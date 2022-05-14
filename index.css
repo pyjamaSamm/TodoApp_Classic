@@ -235,3 +235,10 @@ li.delclass {
         position: relative;
     }
 }
+@media (min-height: 1000px){
+    .mountain{
+        position: absolute;
+        width: 80%;
+        bottom: 0;
+    }
+}
