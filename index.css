@@ -245,7 +245,7 @@ li.delclass {
 @media (min-height: 1000px){
     .mountain{
         position: absolute;
-        width: 80%;
+        width: 60%;
         bottom: 0;
     }
 }
