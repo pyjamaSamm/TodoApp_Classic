@@ -1,0 +1,237 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #fffffe;
+}
+
+h1 {
+    color: #6A67CE;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+}
+
+#newid {
+    font-size: 16px;
+    width: 26%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: 2px solid #6A67CE;
+    color: #7370b2;
+}
+
+::placeholder {
+    color: #7370b2;
+}
+
+.top_cloud {
+    position: absolute;
+    width: 11%;
+    right: 21%;
+    top: 50px;
+}
+
+.birds {
+    position: relative;
+    left: 21%;
+    width: 10%;
+}
+
+.bottom_cloud {
+    width: 12%;
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+}
+
+.last_cloud {
+    width: 10%;
+    position: relative;
+    left: 15%;
+
+}
+
+.mountain {
+    position:relative;
+    top: 100%;
+    margin-left: auto; 
+  margin-right: auto;
+  left: 0; 
+  right: 0;
+    width: 60%;
+
+}
+
+.add {
+    color: #fffffe;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-left: 2px;
+    background-color: #6A67CE;
+    border-radius: 12px;
+    border: 2px solid #6A67CE;
+}
+
+.add:hover {
+    background-color: #8a87e7;
+    cursor: pointer;
+}
+
+.options {
+    color: #fffffe;
+    padding: 10px 12px;
+    margin-right: 5px;
+    background-color: #7470e2;
+    border-radius: 12px;
+    border: 2px solid #7470e2;
+}
+
+.options:hover {
+    background-color: #8a87e7;
+    cursor: pointer;
+}
+
+hr {
+    border-style: dotted;
+    width: 5%;
+    border-width: 8px 0px 0px 0px;
+    color: #e6ddfa;
+    margin: 3% auto 0 auto;
+}
+
+.todoslist {
+    color: #9974a2;
+}
+
+.todoslist button {
+    background-color: #fffffe;
+    border: none;
+    margin-left: 40px;
+    color: #B689C0;
+}
+
+.todoslist button:hover {
+    color: #5e4663;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 2% 0;
+    margin: 0;
+}
+
+li {
+    padding-bottom: 1%;
+}
+
+#heading {
+    font-size: 200%;
+}
+
+.checks {
+    margin-right: 10px;
+}
+
+li.delclass {
+    display: none;
+}
+
+.cross .editbutton {
+    border: none;
+    color: #e7d4ec;
+}
+
+.cross {
+    color: #e7d4ec;
+}
+
+.cross .editbutton:hover {
+    border: none;
+    color: #e7d4ec;
+}
+
+.cross .checks {
+    opacity: 0.3;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 400%;
+    }
+
+    li {
+        font-size: 70%;
+    }
+
+    .todoslist button {
+        font-size: 70%;
+    }
+
+    .birds {
+        right: 16%
+    }
+
+    .bottom_cloud {
+        width: 18%;
+        left: 7%;
+    }
+
+    .top_cloud {
+        width: 12%;
+        right: 11%;
+    }
+
+    #newid {
+        font-size: 12px;
+        width: 26%;
+        margin: 8px 0;
+        padding: 6px 12px;
+        border-radius: 8px;
+    }
+
+    .add {
+        font-size: 12px;
+        padding: 6px 12px;
+        border-radius: 8px;
+    }
+
+    .options {
+        font-size: 12px;
+        padding: 6px 12px;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 390px){
+    li {
+        font-size: 50%;
+    }
+    .bottom_cloud {
+        left: 4%;
+    }
+    .birds{
+        right: 12%;
+    }
+}
+@media (max-width: 850px){
+    .bottom_cloud {
+        left: 4%;
+        width: 17%;
+    }
+    .top_cloud {
+        width: 12%;
+        right: 7%;
+    }
+}
+
+@media (min-width: 600px){
+    .mountain{
+        width: 50%;
+        position: relative;
+    }
+}
