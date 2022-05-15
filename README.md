@@ -1,7 +1,7 @@
 # TodoApp_Classic
 Todo App created using HTML, CSS and JS.
 
-This app is used to keep tracking of tasks that the user wants to accomplish. It is build using HTML, CSS and JavaScript. It is user-friendly and responsive website.
+This app is used to keep track of tasks that the user wants to accomplish. It is build using HTML, CSS and JavaScript. It is user-friendly and responsive website.
 
 Features:
 - create todo
